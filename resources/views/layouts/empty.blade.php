@@ -1,0 +1,9 @@
+<html>
+<head>
+	@include('layouts.header')
+	@yield('header')
+</head>
+<body>
+	@yield('content')
+</body>
+</html>

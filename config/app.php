@@ -158,6 +158,11 @@ return [
 
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
 
+    		/*
+    		 * Application Service Providers
+    		 */
+    		App\Providers\MailSystemServiceProvider::class,
+
     ],
 
     /*
